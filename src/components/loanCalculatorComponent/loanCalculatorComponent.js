@@ -30,7 +30,7 @@ const loanCalculatorComponent = props => (
             </FormText>
         </FormGroup>
         <FormGroup>
-            <Label for="monthDuration">Duration</Label>
+            <Label for="monthDuration">Duration in months</Label>
             <Input
                 type="select"
                 value={props.monthDuration}
@@ -44,7 +44,10 @@ const loanCalculatorComponent = props => (
                     <option key={month}>{month}</option>
                 ))}
             </Input>
-            <FormText>Time Duration between 6 months and 24 months</FormText>
+            <FormText>
+                Time Duration between 6 months and 24 months in which user would
+                pay his loan
+            </FormText>
         </FormGroup>
         <FormGroup>
             <Button
