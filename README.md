@@ -11,5 +11,7 @@ in the computedEmiComponent.<br>
 **A Shared Component named Loader is added in shared directory under components section.which is used in between the time the request goes to api and a response will come.<br>
 
 All the components are added in the mainContainer under container section.which is bootsraped in app.js file.
-#
+
 Third party libraries used:<b> reactstrap,react-input-range</b>
+
+#### Hoseted in upcloud server with nginx
